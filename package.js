@@ -1,6 +1,6 @@
 Package.describe({
   summary: "phantom node Package wrapper",
-  version: "1.0.0"
+  version: "1.0.1"
 });
 
 Package.onUse(function(api) {
@@ -12,5 +12,5 @@ Package.onUse(function(api) {
 });
 
 Npm.depends({
-	"phantom":"0.6.5"
+	phantom:"0.6.5"
 })
